@@ -867,6 +867,78 @@
         </div>
         <!-- /.card -->
 
+        <!-- Default box -->
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Password Reset Request
+            </h3>
+            <div class="card-tools">
+              <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip"
+                title="Collapse">
+                <i class="fas fa-minus"></i></button>
+            </div>
+          </div>
+          <div class="card-body p-3" style="overflow-y: scroll;">
+            <table id="example2" class="table table-bordered table-striped">
+              <thead>
+              <tr>
+                <th style="width: 10%">
+                  #
+                </th>
+                <th style="width: 35%">
+                  Account ID
+                </th>
+                <th style="width: 25%" class="text-center">
+                  Reset Status
+                </th>
+                <th style="width: 30%">
+                </th>
+              </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    1
+                  </td>
+                  <td>
+                    ID # 12345
+                  </td>
+                  <td class="project-state">
+                    <span class="badge badge-danger">Pending to approval</span>
+                  </td>
+                  <td class="project-actions text-right">
+                    <a class="btn btn-primary btn-sm" href="#">
+                      <i class="fas fa-check">
+                      </i>
+                      Approve
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    2
+                  </td>
+                  <td>
+                    ID # 33322
+                  </td>
+                  <td class="project-state">
+                    <span class="badge badge-success">Approved</span>
+                  </td>
+                  <td class="project-actions text-right">
+                    <a class="btn btn-info btn-sm" href="#">
+                      <i class="fas fa-envelope">
+                      </i>
+                      Resent Reset Email
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+
       </section>
       <!-- /.content -->
     </div>
@@ -899,6 +971,7 @@
   <script>
     $(function () {
       $("#example1").DataTable();
+      $("#example2").DataTable();
     });
   </script>
 </body>
