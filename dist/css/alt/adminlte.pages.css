@@ -1,5 +1,5 @@
 /*!
- *   AdminLTE v3.0.2
+ *   AdminLTE v3.0.3-pre
  *     Only Pages
  *   Author: Colorlib
  *   Website: AdminLTE.io <http://adminlte.io>
@@ -128,7 +128,7 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 }
 
 .lockscreen {
-  background: #e9ecef;
+  background: #f9f9f9;
 }
 
 .lockscreen .lockscreen-name {
@@ -144,7 +144,7 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 }
 
 .lockscreen-logo a {
-  color: #495057;
+  color: #005B75;
 }
 
 .lockscreen-wrapper {
@@ -206,13 +206,13 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 
 .login-logo a,
 .register-logo a {
-  color: #495057;
+  color: #005B75;
 }
 
 .login-page,
 .register-page {
   align-items: center;
-  background: #e9ecef;
+  background: #f9f9f9;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -252,7 +252,7 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 
 .login-card-body .input-group .form-control:focus ~ .input-group-append .input-group-text,
 .register-card-body .input-group .form-control:focus ~ .input-group-append .input-group-text {
-  border-color: #80bdff;
+  border-color: #ec7a7c;
 }
 
 .login-card-body .input-group .form-control.is-valid:focus,
@@ -272,7 +272,7 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 
 .login-card-body .input-group .form-control.is-invalid ~ .input-group-append .input-group-text,
 .register-card-body .input-group .form-control.is-invalid ~ .input-group-append .input-group-text {
-  border-color: #dc3545;
+  border-color: #D03938;
 }
 
 .login-card-body .input-group .input-group-text,
@@ -402,7 +402,7 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
   border-radius: 0.25rem;
   background-color: #ffffff;
-  border: 1px solid #dee2e6;
+  border: 1px solid #f6f6f6;
   display: flex;
   margin-right: 1rem;
   max-width: 7rem;

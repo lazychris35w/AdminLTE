@@ -560,7 +560,7 @@ body:not(.sidebar-mini-md) {
 .main-footer {
   background: $main-footer-bg;
   border-top: $main-footer-border-top;
-  color: lighten($gray-700, 25%);
+  color: lighten($gray-600, 25%);
   padding: $main-footer-padding;
 
   .text-sm &,
@@ -608,5 +608,33 @@ body:not(.sidebar-mini-md) {
   .control-sidebar *,
   .main-footer {
     transition: none !important;
+  }
+}
+
+
+.badge{
+  &.badge-success {
+    background-color: #28a745b3;
+  }
+  &.badge-danger {
+    background-color:#dc3545cc
+  }
+  &.badge-warning {
+    background-color:#ffc107cc
+  }
+}
+
+.project-actions {
+  > .btn.btn-primary {
+    background-color: #007bffb3;
+    border-color: #007bffb3;
+  }
+  > .btn.btn-info {
+    background-color: #17a2b8b3;
+    border-color: #17a2b8b3;
+  }
+  > .btn.btn-danger {
+    background-color: #dc3848b3;
+    border-color: #dc3848b3;
   }
 }
